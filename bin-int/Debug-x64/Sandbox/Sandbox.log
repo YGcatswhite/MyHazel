@@ -1,0 +1,12 @@
+﻿  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /IC:\dev\MyHazel\MyHazel\src /ZI /JMC /W3 /WX- /diagnostics:classic /sdl /Od /D _MBCS /D _MBCS /D HZ_PLATFORM_WINDOWS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"C:\dev\MyHazel\\bin-int\Debug-x64\Sandbox\\" /Fd"C:\dev\MyHazel\\bin-int\Debug-x64\Sandbox\vc141.pdb" /Gd /TP /FC /errorReport:prompt src\sandbox.cpp
+  
+  sandbox.cpp
+  Microsoft (R) Incremental Linker Version 14.16.27045.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  "/OUT:C:\dev\MyHazel\\bin\Debug-x64\Sandbox\Sandbox.exe" /INCREMENTAL kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK "/PDB:C:\dev\MyHazel\\bin\Debug-x64\Sandbox\Sandbox.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT "/IMPLIB:C:\dev\MyHazel\\bin\Debug-x64\Sandbox\Sandbox.lib" /MACHINE:X64 "C:\dev\MyHazel\\bin-int\Debug-x64\Sandbox\sandbox.obj" 
+  "C:\dev\MyHazel\bin\Debug-x64\MyHazel\MyHazel.lib" 
+  Sandbox.vcxproj -> C:\dev\MyHazel\\bin\Debug-x64\Sandbox\Sandbox.exe
